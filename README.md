@@ -1,16 +1,27 @@
-### Hi there 👋
-
-<!--
-**senpng/senpng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```javascript
+const SenPng = {
+  pronouns: 'SP' | 'SenPng',
+  code: ['TypeScript', 'Objective-C', 'Swift', 'C++', 'Python', 'Java'],
+  askMeAbout: ['web dev', 'tech', 'app dev'],
+  technologies: {
+      backend: {
+          js: ['Koa', 'Express', 'Nest', 'Loopback'],
+          java: ['Spring', 'Erupt'],
+          python: ['Django'],
+      },
+      mobileApp: {
+          native: ['iOS', 'Android'],
+          hybrid: ['Flutter', 'React Native', 'Weex']
+      },
+      pcApp: {
+          macOS: ['Cocoa', 'Qt'],
+      },
+      web: ['Vue', 'React', 'Svelte'],
+      devOps: ['K8s', 'Docker', 'Ansible'],
+      databases: ['MySQL', 'PostgreSQL', 'MongoDB', 'MSSQL', 'SQLite'],
+      misc: ['Appium', 'WebdriverIO', 'Frida']
+  },
+  architecture: ['Serverless Architecture', 'Progressive web applications', 'Single page applications'],
+  currentFocus: 'No Focus point at this time',
+};
+```
